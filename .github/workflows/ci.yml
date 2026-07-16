@@ -15,20 +15,20 @@ jobs:
     name: Run Tests
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout code
-       uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      -name: Set up Python
-       uses: actions/setup-python@v5
-       with:
-         python-version: "3.11"
-        cache: "pip"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
       
-      -name: Install dependencies
-       run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      -name: Run Tests
-       run: python -m pytest tests/ -v --tb=short
+      - name: Run Tests
+        run: python -m pytest tests/ -v --tb=short
 
   build-and-push:
     name: Build, Scan and Push 
