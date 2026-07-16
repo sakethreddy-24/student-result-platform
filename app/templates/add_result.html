@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Add Result</h1>
+<form method="POST" class="form">
+    <div class="form-group">
+        <label>Student</label>
+        <select name="student_id" required>
+            <option value="">Select Student</option>
+            {% for student in students %}
+            <option value="{{ student.id }}">
+                {{ student.name }} ({{ student.roll_number }})
+            </option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Subject</label>
+        <input type="text" name="subject" required placeholder="Mathematics">
+    </div>
+    <div class="form-group">
+        <label>Marks Obtained</label>
+        <input type="number" name="marks" required min="0" max="100">
+    </div>
+    <div class="form-group">
+        <label>Maximum Marks</label>
+        <input type="number" name="max_marks" value="100" required min="1">
+    </div>
+    <div class="form-group">
+        <label>Semester</label>
+        <select name="semester" required>
+            <option value="">Select Semester</option>
+            {% for i in range(1, 9) %}
+            <option value="Sem {{ i }}">Semester {{ i }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <button type="submit" class="btn">Add Result</button>
+    <a href="{{ url_for('results.list_results') }}" class="btn-secondary">Cancel</a>
+</form>
+{% endblock %}

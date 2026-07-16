@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="page-header">
+    <h1>All Results</h1>
+    <a href="{{ url_for('results.add_result') }}" class="btn">Add Result</a>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>Student</th><th>Subject</th><th>Marks</th>
+            <th>Percentage</th><th>Grade</th><th>Semester</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for result, student in results %}
+        <tr>
+            <td>{{ student.name }}</td>
+            <td>{{ result.subject }}</td>
+            <td>{{ result.marks }}/{{ result.max_marks }}</td>
+            <td>{{ result.percentage }}%</td>
+            <td class="grade-{{ result.grade.replace('+','plus') }}">{{ result.grade }}</td>
+            <td>{{ result.semester }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="6">No results found</td></tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

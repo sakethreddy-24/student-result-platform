@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Dashboard</h1>
+<div class="stats-grid">
+    <div class="stat-card">
+        <h2>{{ total_students }}</h2>
+        <p>Total Students</p>
+    </div>
+    <div class="stat-card">
+        <h2>{{ total_results }}</h2>
+        <p>Total Results</p>
+    </div>
+</div>
+<h2>Recent Students</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th><th>Roll Number</th>
+            <th>Department</th><th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for student in recent_students %}
+        <tr>
+            <td>{{ student.name }}</td>
+            <td>{{ student.roll_number }}</td>
+            <td>{{ student.department }}</td>
+            <td>
+                <a href="{{ url_for('results.student_results', student_id=student.id) }}">
+                    View Results
+                </a>
+            </td>
+        </tr>
+        {% else %}
+        <tr><td colspan="4">No students yet. Add one!</td></tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
