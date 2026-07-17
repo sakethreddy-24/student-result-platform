@@ -180,24 +180,6 @@ student-result-platform/
 
 ---
 
-#  Docker
-
-*(Add your Docker screenshots here)*
-
----
-
-#  Azure Infrastructure
-
-*(Add your Azure screenshots here)*
-
----
-
-#  Database
-
-*(Add your PostgreSQL screenshots here)*
-
----
-
 #  Challenges Faced
 
 During development, several real-world deployment issues were encountered and resolved:
