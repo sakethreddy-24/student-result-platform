@@ -9,13 +9,11 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-# 🎓 Student Result Management System
-
 A production-ready **Flask-based Student Result Management System** deployed on **Microsoft Azure** using **Terraform**, **Docker**, and **Docker Compose**. This project demonstrates Infrastructure as Code (IaC), containerization, cloud deployment, and DevOps best practices.
 
 ---
 
-# 🚀 Live Demo
+#  Live Demo
 
 **Application URL**
 
@@ -27,7 +25,7 @@ http://52.140.121.158:9090
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 This project allows users to:
 
@@ -42,7 +40,7 @@ The entire infrastructure was provisioned using Terraform, making the deployment
 
 ---
 
-# 🏗 Architecture
+#  Architecture
 
 ```
                 Internet
@@ -119,7 +117,7 @@ student-result-platform/
 
 ---
 
-# ⚙ Features
+#  Features
 
 - Student Management
 - Result Management
@@ -131,7 +129,7 @@ student-result-platform/
 
 ---
 
-# 🚀 Deployment Workflow
+#  Deployment Workflow
 
 1. Provision Azure Infrastructure using Terraform
 2. Create Azure Virtual Machine
@@ -144,7 +142,7 @@ student-result-platform/
 
 ---
 
-# 📸 Application Screenshots
+#  Application Screenshots
 
 ## Dashboard
 
@@ -182,25 +180,25 @@ student-result-platform/
 
 ---
 
-# 🐳 Docker
+#  Docker
 
 *(Add your Docker screenshots here)*
 
 ---
 
-# ☁ Azure Infrastructure
+#  Azure Infrastructure
 
 *(Add your Azure screenshots here)*
 
 ---
 
-# 🗄 Database
+#  Database
 
 *(Add your PostgreSQL screenshots here)*
 
 ---
 
-# 💡 Challenges Faced
+#  Challenges Faced
 
 During development, several real-world deployment issues were encountered and resolved:
 
@@ -215,7 +213,7 @@ Resolving these issues helped improve practical understanding of cloud deploymen
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 - HTTPS using Let's Encrypt
 - Nginx Reverse Proxy
@@ -230,7 +228,7 @@ Resolving these issues helped improve practical understanding of cloud deploymen
 
 # 👨‍💻 Author
 
-**Your Name**
+**Saketh Reddy**
 
 B.Tech CSE (AI & ML)
 
@@ -238,4 +236,3 @@ DevOps Enthusiast
 
 ---
 
-# ⭐ If you found this project helpful, consider giving it a star!
