@@ -146,37 +146,37 @@ student-result-platform/
 
 ## Dashboard
 
-![Dashboard](screenshots/app/dashboard.png)
+![Dashboard](screenshots/app/Screenshot 2026-07-17 231112.png)
 
 ---
 
 ## Add Student
 
-![Add Student](screenshots/app/add-student.png)
+![Add Student](screenshots/app/Screenshot 2026-07-17 231302.png)
 
 ---
 
 ## Students
 
-![Students](screenshots/app/students.png)
+![Students](screenshots/app/Screenshot 2026-07-17 231315.png)
 
 ---
 
 ## Add Result
 
-![Add Result](screenshots/app/add-result.png)
+![Add Result](screenshots/app/Screenshot 2026-07-17 231539.png)
 
 ---
 
 ## Results
 
-![Results](screenshots/app/results.png)
+![Results](screenshots/app/Screenshot 2026-07-17 231553.png)
 
 ---
 
 ## Live Application
 
-![Live Application](screenshots/app/live-dashboard.png)
+![Live Application](screenshots/app/Screenshot 2026-07-17 231112.png)
 
 ---
 
