@@ -13,15 +13,12 @@ A production-ready **Flask-based Student Result Management System** deployed on 
 
 ---
 
-#  Live Demo
+## Live Demo
 
-**Application URL**
+> The application was successfully deployed on Microsoft Azure as part of this project.
+> The cloud resources have since been decommissioned to avoid ongoing Azure charges.
 
-```
-http://52.140.121.158:9090
-```
-
-> **Note:** The application is hosted on an Azure Virtual Machine. If the VM is stopped, the application will be unavailable until the VM is started again.
+See the screenshots below for the deployed application.
 
 ---
 
@@ -146,37 +143,37 @@ student-result-platform/
 
 ## Dashboard
 
-![Dashboard](screenshots/app/Screenshot 2026-07-17 231112.png)
+![Dashboard](screenshots/app/Screenshot%202026-07-17%20231112.png)
 
 ---
 
 ## Add Student
 
-![Add Student](screenshots/app/Screenshot 2026-07-17 231302.png)
+![Add Student](screenshots/app/Screenshot%202026-07-17%20231302.png)
 
 ---
 
 ## Students
 
-![Students](screenshots/app/Screenshot 2026-07-17 231315.png)
+![Students](screenshots/app/Screenshot%202026-07-17%20231315.png)
 
 ---
 
 ## Add Result
 
-![Add Result](screenshots/app/Screenshot 2026-07-17 231539.png)
+![Add Result](screenshots/app/Screenshot%202026-07-17%20231539.png)
 
 ---
 
 ## Results
 
-![Results](screenshots/app/Screenshot 2026-07-17 231553.png)
+![Results](screenshots/app/Screenshot%202026-07-17%20231553.png)
 
 ---
 
 ## Live Application
 
-![Live Application](screenshots/app/Screenshot 2026-07-17 231112.png)
+![Live Application](screenshots/app/Screenshot%202026-07-17%20231112.png)
 
 ---
 
